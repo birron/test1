@@ -1,0 +1,1 @@
+libcommon_a-common.o: common.c
