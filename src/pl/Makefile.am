@@ -7,6 +7,6 @@ HDRS =
 SRCS += pl_test.c
 HDRS += pl_test.h
 
-libplif_a_CFLAGS = $(CFLAGS)
+libplif_a_CFLAGS = $(CFLAGS) $(LCFLAGS)
 libplif_a_SOURCES = $(SRCS) $(HDRS)
 

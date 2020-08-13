@@ -1,9 +1,8 @@
 #include <stdio.h>
-int il_test( int x );
-int pl_test( int x );
+#include "al_test.h"
 int main( void ){
-	printf("test1\r\n");
-	il_test(2);
-	pl_test(3);
+	int ret = 0;
+	ret = al_test(2);
+	printf("test1 = %d\r\n", ret);
 	return 0;
 }

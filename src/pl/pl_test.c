@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include "common.h"
+
 int pl_test( int x ){
-	int ret = x * 3;
-	printf("pl_tst %d\r\n", ret );
+	int ret = x * MAX_VAL;
 	return ret;
 }

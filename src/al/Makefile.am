@@ -4,6 +4,7 @@ SRCS =
 INCS = -I$(srcdir)/../common
 INCS += -I$(srcdir)/../al
 INCS += -I$(srcdir)/../il
+INCS += -I$(srcdir)/../pl
 LCFLAGS = -W -Wall -Wall $(INCS) 
 LLDADD = $(builddir)/../il/libilif.a
 LLDADD += $(builddir)/../pl/libplif.a
