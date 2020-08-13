@@ -30,3 +30,21 @@
 
 # Debug files
 *.dSYM/
+
+# Others
+*.in
+Makefile
+.deps
+config.*
+libtool
+m4
+*.m4
+autom4te.cache
+compile
+configure
+depcomp
+stamp-h1
+missing
+build.log
+install-sh
+ltmain.sh
