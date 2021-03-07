@@ -1,7 +1,13 @@
 #ifndef AL_TEST_H_
 #define AL_TEST_H_
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 int al_test( int x );
 
-#endif
 
+#ifdef __cplusplus
+}
+#endif
+#endif
